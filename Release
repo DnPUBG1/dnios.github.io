@@ -1,8 +1,19 @@
-Origin: NGUYỄN ĐẮC DOANH
-Label: DNIOS
+Origin: DLGamingVN Repo
+Label: DLGamingVN
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architecture: iphoneos-arm
 Components: main
-Description: DNIOS
+Description: Cydia Repo by DLGamingVN🖤 <DL>
+
+
+
+
+
+
+
+
+MD5Sum:
+ ceccde330507b0fa01df9cfea6516448 83840 Packages
+ 8d43c8f8310fd63bd18475c17d538b1a 26195 Packages.bz2

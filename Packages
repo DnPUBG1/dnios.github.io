@@ -1,19 +1,21 @@
 Package: dnios.dn.unc0ver802
 Architecture: iphoneos-arm
-Version: 1.0.1
-Section: unc0ver
-Maintainer: @ongcenh
-Installed-Size: 368
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
-Conflicts: applebetas.ios.tweak.willow, es.ubikstyl.sonus12, org.fwdr.sonus, com.midkin.byebyehud, me.nepeta.flashyhud, com.lnx.aerify, com.ruler225.videohud, me.nepeta.brokenhud, com.ikilledappl3.switchhud, com.yakir.volhud
-Filename: ./deb/dnios.dn.unc0ver802_8.0.2.deb
-Size:
-MD5sum: 9bc819aae9aed941e7b0fef0988b5703
-SHA1: 561d8d5678df610431408af9365b393f0876354e
-SHA256: 4e3ab09f46b75a2598c2c4c63a955c6d9c2f4aca1482f6ed27f2b1ceee039671
-SHA512: d2ed9ff983eacf740df60e4079e9c4efafc9995263d282946e2c681cd1f46c0f7ce6615303dd3850b2e5724eb91f63bc9f4651a4eccfe838ea3f9d572daabbd0
-Description: iOS 13 volume HUD dành cho iOS 11/12
-Name: 13HUD
-Author: Muirey03
-Depiction: 
-SileoDepiction: 
+Version: 10.0.0~svn-20200108+247e5b37d63-3
+Priority: optional
+Section: Development
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 488
+Provides: org.coolstar.llvm-clang64, org.coolstar.llvm-clang, cc, gcc
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, python, xz, libllvm10, libclang-cpp10, ld64, libclang-common-10-dev
+Conflicts: org.coolstar.llvm-clang64, org.coolstar.llvm-clang
+Replaces: org.coolstar.llvm-clang64, org.coolstar.llvm-clang
+Filename: ./debs/dnios.dn.unc0ver802_8.0.2.deb
+Size: 55840
+MD5sum: 7a4cd669d22ffde7ff411ca28f4e82fa
+SHA1: eb68bb8435d6fa61b99bd694cbb19680132698ac
+SHA256: f02274413dd5c9bcdf1f3ae0edcb5c8a49f240c628b495eba38d5cd460f44f70
+SHA512: 13ffd8684550c907ef509ea6d727d13abb3a9d021007c2722239d262e576134e09a8f30ce91d07afaffcfba98d3171ab8c3c56fa9ffa11763c84c489f54ec268
+
+Description: DNIOS
+Name: DNIOS UNC0VER
